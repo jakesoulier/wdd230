@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: #18B5D9;
+    margin: 2em auto;
+    /* padding: 1em; */
+    /* text-align: center; */
+    width: 950px;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Permanent Marker', cursive; */
+    color: white;
+}
+
+.head {
+    /* height: 75%; */
+    border-radius: 25px 25px 25px 25px;
+    background-color: #F22E52;
+    /* color: white; */
+    color: white;
+    text-shadow: 0 0 10px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* width: 50%; */
+
+}
+header h1 {
+    grid-row: 2/3;
+    font-size: 40px;
+}
+
+main h1 {
+    text-shadow: 2px 0 8px black;
+}
+/* #self-port img {
+    width: 40%;
+    height: auto;
+} */
+
+#self-port {
+    padding: 1em;
+    grid-row: 1/-1;
+}
+
+/* 
+header h1 {
+    color: black;
+} */
+li {
+    font-size: large;
+    padding: 0.3em;
+}
+
+li a {
+    color: #042d3d;
+}
+
+footer {
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #F22E52;
+    padding: 0.7em;
+    
+    
+}
+
+footer h2 {
+    text-shadow: 2px 0 10px black;
+    margin: 0.2em;
+}
+
+
+#dateTime {
+    color: #042d3d;
+    font-style:italic;
+    /* font-weight: bold; */
+    /* text-shadow: 0px white; */
+    margin: 0.2em;
+}
