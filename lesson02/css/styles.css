@@ -45,9 +45,11 @@ img{
      */
     max-width: 95%;
 }
-
+a{
+    color:black;
+}
 .section02 {
-    background-color: rgb(177, 120, 230);
+    background-color: rgb(183, 8, 252);
     border-radius: 25px 25px 25px 25px;
     margin: 10px;
 }
