@@ -1,7 +1,5 @@
-
-var string = document.lastModified;
-var update = 'Last updated: ' + string
-document.getElementById('dateTime').innerHTML = update
-var date = new Date();
-var year = date.getFullYear()
-document.getElementById('year').innerHTML = year
+window.addEventListener('load', () => {
+    const today = new Date()
+    document.getElementById('year').textContent = today.getFullYear()
+    document.getElementById('dateTime').textContent = 'Last updated: ' + document.lastModified
+})
