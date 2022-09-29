@@ -54,11 +54,20 @@ a{
     margin: 10px;
 }
 
+
+
 .section03 {
+    /* margin-top: 20px; */
     margin: 10px;
     background-color: rgb(177, 120, 230);
     border-radius: 25px 25px 25px 25px;
 }
+
+/* .section02 a {
+    margin-bottom: 40px;
+    padding: 2em;
+    background-color: black;
+} */
 
 footer{
     background-color: rgb(42, 11, 72);
@@ -72,6 +81,10 @@ footer{
     }
     .section03 {
         grid-column: 1/-1;
+    }
+    .section03 img {
+        width: 100%;
+        /* background-color: black; */
     }
 }
 
