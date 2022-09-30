@@ -1,14 +1,27 @@
+:root {
+    --red: #8C1F28;
+    --darkred: #591C21;
+    --calmblue: #044040;
+    --brightred: #D92525;
+    --mywhite: #F2F2F2;
+}
+
+
 body {
     margin: 0 auto;
     /* text-align: center; */
     padding: 1em;
+    background-color:var(--mywhite);
     
 }
 
 header {
-    background-color: #23468C;
-    color: white;
-    text-align: center;
+    background-color: var(--calmblue);
+    color: var(--mywhite);
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 #domain {
@@ -24,7 +37,7 @@ header {
 } */
 #color-scheme {
     padding: 0.7em;
-    background-color: #F25430;
+    background-color: var(--calmblue);
 }
 
 /* #color-scheme :hover {
@@ -33,12 +46,19 @@ header {
 
 #typography {
     padding: 0.7em;
-    background-color: #efa00d;
+    background-color: var(--red);
 }
 
 #audience {
     padding: 0.7em;
-    background-color:rgb(5, 65, 65);
+    background-color:var(--darkred);
+    /* max-width: 200px; */
+}
+ 
+#audience :hover {
+    background-color: var(--brightred);
+    /* padding: 1em; */
+    font-size: 150%; 
 }
 
 /* #audience :hover {
@@ -54,7 +74,8 @@ nav a {
 @media screen and (min-width: 800px) {
     nav {
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
+        flex-basis: 100%;
     }
 
 }
