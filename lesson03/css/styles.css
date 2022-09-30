@@ -1,31 +1,35 @@
 body {
     margin: 0 auto;
-    text-align: center;
-    color: white;
+    /* text-align: center; */
+    padding: 1em;
+    
 }
 
 header {
     background-color: #23468C;
-    
+    color: white;
+    text-align: center;
 }
 
-nav {
-    /* margin: 1em; */
+#domain {
+    text-decoration: underline;
+}
+
+/* nav {
     position: absolute;
     top: 50%;
     left: 50%;
     transform-origin: center;
     transform: translateY(50%) translateX(50%) rotate(90deg);
-    /* max-width: auto; */
-}
+} */
 #color-scheme {
     padding: 0.7em;
     background-color: #F25430;
 }
 
-#color-scheme :hover {
+/* #color-scheme :hover {
     background-color: black;
-}
+} */
 
 #typography {
     padding: 0.7em;
@@ -37,12 +41,20 @@ nav {
     background-color:rgb(5, 65, 65);
 }
 
-#audience :hover {
+/* #audience :hover {
     background-color: black;
     padding: 3em;
-}
+} */
 nav a {
     /* padding: 1em; */
     color: white;   
     text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
 }
