@@ -33,7 +33,8 @@ header {
 } */
 #color-scheme {
     padding: 0.7em;
-    background-color: #F25430;
+    /* background-color: #F25430; */
+    background-color: #23468C;
 }
 
 /* #color-scheme :hover {
@@ -42,7 +43,8 @@ header {
 
 #typography {
     padding: 0.7em;
-    background-color: #efa00d;
+    /* background-color: #efa00d; */
+    background-color: #23468C;
 }
 
 #audience {
