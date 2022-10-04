@@ -1,0 +1,24 @@
+header {
+    background-color: #8C0303;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#buttonham {
+    border: none
+}
+
+.button {
+    background-color: aquamarine;
+    align-items: right;
+}
+
+nav {
+    text-align: right;
+}
+
+#navbar {
+    list-style: none;
+    text-align: center;
+}
