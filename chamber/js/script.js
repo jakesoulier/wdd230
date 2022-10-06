@@ -13,3 +13,8 @@ function openMenu(){
 // -webkit-transform: translate(-50%, -50%);
 //     -ms-transform: translate(-50%, -50%);
 //     transform: translate(-50%, -50%);
+window.addEventListener('load', () => {
+  const today = new Date()
+  document.getElementById('year').textContent = today.getFullYear()
+  document.getElementById('dateTime').textContent = 'Last updated: ' + document.lastModified
+})
