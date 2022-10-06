@@ -4,31 +4,26 @@ body {
 header {
     background-color: #222a59;
     display: flex;
-    /* align-items: center; */
+    align-items: center;    
     color: white;
+    justify-content: center;
     /* box-shadow: 0 0 10px white; */
 }
 
 header h1 {
+    flex: 1;
     align-items: center;
-    position: absolute;
-    top: 6%;
-    left: 45%;
     max-width: 250px;
 }
 .social {
     position: absolute;
+    top: 3%;
     left: 85%;
     padding: 0.5em;
 }
 #buttonham {
     border: none;
-    background-color: #222a59;
-    position: absolute;
-    left: 91%;
-    top: 12%;
-    height: 25%;
-    
+    background-color: #222a59; 
 }
 #buttonham :hover {
     color: white;
@@ -37,18 +32,13 @@ header h1 {
     box-shadow: 0 0 35px #A63292;
 }
 
-/* #buttonham:hover figure {
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-} */
-/* #buttonham :active {
-    box-shadow: 0 0 5px #A63292;
-} */
+footer a {
+    color: white;
+}
 
-/* nav {
-    text-align: right;
-} */
+footer a:active {
+    color: red;
+}
 
 #navbar {
     list-style: none;
@@ -59,8 +49,8 @@ header h1 {
     
 }
 nav ul {
-    padding: none;
-    list-style-type: none;
+    padding-inline-start: 0;
+
 }
  /* ul {
     padding: none;
@@ -89,6 +79,10 @@ main div {
 }
 
 body p {
+    margin: 0;
+}
+
+.spot1, .spot2 {
     margin: 0;
 }
 
