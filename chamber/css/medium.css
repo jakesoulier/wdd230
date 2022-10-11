@@ -13,4 +13,32 @@
         flex: 1;
         
     }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .hero {
+        grid-column: 1/-1;
+        /* grid-row: 1/1; */    
+    }
+
+    .news {
+        grid-column: 1/-1;
+        grid-row: 2;
+    }
+
+    .spotlights {
+        grid-row: 3;
+        grid-column: 1/-1;
+    }
+
+    .join {
+        display: inherit;
+        grid-column: 1/-1;
+        grid-row: 4;
+    }
+
 }

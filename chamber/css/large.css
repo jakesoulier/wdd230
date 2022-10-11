@@ -1,0 +1,20 @@
+@media screen and (min-width: 950px) {
+
+    header {
+        /* align-items: center; */
+        flex-wrap: nowrap;
+        flex-direction: row;
+        
+        /* width: 50%; */
+    }
+    
+    #buttonham {
+        display: none;
+        
+    }
+
+    #navbar {
+        background-color: aqua;
+        order: 2;
+    }
+}

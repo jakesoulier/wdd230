@@ -4,10 +4,16 @@ body {
 header {
     background-color: #222a59;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;    
     color: white;
     justify-content: center;
     /* box-shadow: 0 0 10px white; */
+}
+
+header nav {
+    background-color: black;
+    width: 100%;
 }
 
 header h1 {
@@ -76,6 +82,10 @@ main div {
     box-shadow: 0 0 5px white;
     margin: 1em;
 
+}
+
+.join {
+    display: none;
 }
 
 body p {
