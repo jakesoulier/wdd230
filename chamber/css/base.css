@@ -95,6 +95,9 @@ body p {
 .spot1, .spot2 {
     margin: 0;
 }
+.spot3 {
+    display: none;
+}
 
 footer {
     background-color: #222a59;
@@ -106,6 +109,11 @@ footer {
 
 footer p {
     padding: 0.2em;
+}
+
+footer nav {
+    /* align-items: center; */
+    text-align: center;
 }
 
 
