@@ -2,7 +2,7 @@
 
     header {
         /* align-items: center; */
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         flex-direction: row;
         
         /* width: 50%; */
@@ -43,8 +43,12 @@
         box-shadow: none;
     }
     .social {
-        order: 4;
+        order: 3;
         /* background-color: #222a59;   */
+    }
+
+    header p {
+        order: 4;
     }
 
     main {

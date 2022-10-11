@@ -21,6 +21,11 @@ header h1 {
     align-items: center;
     max-width: 250px;
 }
+
+header p {
+    width: 100%;
+    text-align: center;
+}
 .social {
     position: absolute;
     top: 3%;
@@ -116,7 +121,10 @@ footer nav {
     text-align: center;
 }
 
-
+header p {
+    background-color: rgb(37, 37, 35);
+    padding: 1em;
+}
 /* .event {
     margin: 0;
 } */

@@ -14,7 +14,11 @@ function openMenu(){
 //     -ms-transform: translate(-50%, -50%);
 //     transform: translate(-50%, -50%);
 window.addEventListener('load', () => {
+  const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   const today = new Date()
+  let day = weekday[today.getDay()];
+  var month = today.toLocaleString('default', { month: 'long' });
   document.getElementById('year').textContent = today.getFullYear()
   document.getElementById('dateTime').textContent = 'Last updated: ' + document.lastModified
+  document.getElementById('headerdate').textContent = day + ', ' + today.getDay() + " " + month + " " + today.getFullYear()
 })
