@@ -78,7 +78,9 @@ figure:hover {
     opacity: 1.0;
 }
 main div {
-    color: rgb(77, 76, 76);
+    /* color: rgb(77, 76, 76);
+     */
+    color: white;
     background-color: #0D0D0D;
     width: 90%;
     min-height: 100px;
