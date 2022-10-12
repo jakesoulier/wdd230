@@ -2,12 +2,25 @@
 
     header {
         /* align-items: center; */
-        flex-wrap: wrap;
-        flex-direction: row;
+        /* flex-wrap: wrap;
+        flex-direction: row; */
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+
         
         /* width: 50%; */
     }
     
+    /* header img {
+
+    } */
+    header p {
+        grid-column: 1/-1;
+    }
+    header h1 {
+        grid-column: 2;
+    }
+
     #buttonham {
         display: none;
         
