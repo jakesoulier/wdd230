@@ -127,6 +127,9 @@ header p {
     background-color: rgb(37, 37, 35);
     padding: 1em;
 }
+.dash {
+    display: none;
+}
 /* .event {
     margin: 0;
 } */

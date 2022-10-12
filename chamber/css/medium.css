@@ -59,5 +59,13 @@
     .bottomfooter {
         grid-row: 2;
         grid-column: 1/-1;
+        /* display: flex; */
+    }
+    .botbotfooter {
+        display: flex;
+        justify-content: center;
+    }
+    .dash {
+        display: block;
     }
 }
