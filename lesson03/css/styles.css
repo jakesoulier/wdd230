@@ -34,7 +34,7 @@ header {
 #color-scheme {
     padding: 0.7em;
     /* background-color: #F25430; */
-    background-color: #23468C;
+    background-color: rgb(5, 65, 65);
 }
 
 /* #color-scheme :hover {
@@ -44,12 +44,12 @@ header {
 #typography {
     padding: 0.7em;
     /* background-color: #efa00d; */
-    background-color: #23468C;
+    background-color: #79460b;
 }
 
 #audience {
     padding: 0.7em;
-    background-color:rgb(5, 65, 65);
+    background-color:rgb(30, 48, 135);
     
 }
 
@@ -90,7 +90,13 @@ table {
 @media screen and (min-width: 800px) {
     nav {
         display: flex;
+        flex-direction: row;
+        
         /* justify-content: center; */
+    }
+
+    nav > * {
+        flex: 1 1 0;
     }
 
 }
