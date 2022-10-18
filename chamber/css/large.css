@@ -99,13 +99,28 @@
     .spotlights {
         grid-column: 4;
         grid-row: 1/5;
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap;
+         */
+        /* flex-basis: 100%; */
+        /* justify-content: center; */
     }
+
+
     .join {
         grid-column: 1;
+    }
+    .spot1 {
+        height: 33%;
+    }
+    .spot2 {
+        height: 33%;
     }
     .spot3 {
         /* padding: 0; */
         margin: 0;
         display: inherit;
+        height: 33%;
     }
 }
