@@ -45,15 +45,18 @@
     footer {
         display: grid;
         /* grid-template-rows: 1fr 1fr; */
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .headfooter {
+    .footerlogo {
         grid-column: 1;
+    }
+    .headfooter {
+        grid-column: 2;
     }
     
     .middlefooter {
-        grid-column: 2;
+        grid-column: 3;
     }
 
     .bottomfooter {

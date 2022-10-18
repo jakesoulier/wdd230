@@ -14,7 +14,9 @@ header {
 
 
 header nav {
-    background-color: black;
+    /* background-color: black;
+     */
+    background-color: #222a59;
     width: 100%;
 }
 
@@ -55,7 +57,7 @@ footer a:active {
 
 #navbar {
     list-style: none;
-    /* background-color: #03A64A; */
+    
     text-align: center;
     color: white;
     /* padding: none; */
@@ -71,44 +73,55 @@ nav ul {
 } */
 
 figure {
-    background-color: #0D0D0D;
+    /* background-color: #0D0D0D; */
     opacity: 0.7;
-    box-shadow:  0 0 10px 10px #3F2140;
+    /* box-shadow:  0 0 10px 10px #3F2140; */
     
 }
 figure:hover {
     opacity: 1.0;
 }
 main div {
-    /* color: rgb(77, 76, 76);
-     */
+    
+    /* justify-content: end; */
     color: white;
     background-color: #0D0D0D;
     width: 90%;
     min-height: 100px;
-    /* height: 100px; */
-    padding: 0.75em;
     box-shadow: 0 0 5px white;
-    margin: 1em;
-
+    text-align: center;
+    padding: 0.5em;
+    margin: 0 auto;
+    margin-top: 1%;
 }
 
 .join {
     display: none;
 }
 
+.join button {
+    border-radius: 12px;
+    max-height: 50%;
+    background-color: #222a59;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+
 body p {
     margin: 0;
 }
 
-.spot1, .spot2 {
-    margin: 0;
-}
+
 .spot3 {
     display: none;
 }
 
 footer {
+    margin-top: 5%;
     background-color: #222a59;
     color: white;
     display: flex;
@@ -135,11 +148,17 @@ header p {
 .hero {
     font-size: xx-large;
     font-weight: bolder;
+    
     /* color: #3F2140;
      */
     /* text-shadow: -1px 2px white, 0 1px white, 1px 0 white, 0 -1px white;
      */
     text-shadow: 0 0 5px black;
+}
+
+main div h2 {
+    
+    text-shadow: 0 0 5px aqua;
 }
 
 .hero button {
