@@ -17,6 +17,12 @@
     header p {
         grid-column: 1/-1;
     }
+    #monday{
+        grid-column: 1/-1;
+        grid-row: 3;
+        text-align: center;
+        padding: 0.5em;
+    }
     header h1 {
         grid-column: 2;
     }
