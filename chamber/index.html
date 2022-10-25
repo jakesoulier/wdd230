@@ -21,7 +21,7 @@
 
   <body>
     <header>
-      <img src="imgs/iflogohue-01.png" alt="IFlogo" />
+      <img src="imgs/iflogohueWebp.webp" alt="IFlogo" />
       <h1>Idaho Falls Chamber of Commerce</h1>
       <div class="social">
         <a href="https://www.facebook.com/jake.soulier"
@@ -82,9 +82,10 @@
       <div class="weather">
         <h2>Weather</h2>
         <img src="imgs/sun.png" alt="sun">
+        <p>Temerature: <span id="temp">°F</span></p>
         <hr>
-        <p>Wind Speed: 2.5 km/h</p>
-        <p>Wind Chill: N/A</p>
+        <p>Wind Speed: <span id="windSpeed"></span> km/h</p>
+        <p>Wind Chill: <span id="windChill"></span></p>
       </div>
       <div class="news">
         <h2>News Release</h2>
@@ -112,7 +113,7 @@
       </div>
     </main>
     <footer>
-      <nav class="footerlogo"><img src="imgs/iflogohue-01resize.png" alt="IFlogo" /></nav>
+      <nav class="footerlogo"><img src="imgs/iflogohueWebp.webp" alt="IFlogo" /></nav>
       <nav class="headfooter">
         
         <p>Idaho Falls Chamber of Commerce</p>
@@ -142,5 +143,6 @@
       </nav>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>

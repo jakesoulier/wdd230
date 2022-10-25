@@ -126,7 +126,7 @@
     .spot3 {
         /* padding: 0; */
         margin: 0;
-        display: inherit;
+        display: inline;
         height: 33%;
     }
 }
