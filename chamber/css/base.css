@@ -33,15 +33,16 @@ header p {
 .social {
     position: absolute;
     top: 3%;
-    left: 85%;
+    left: 85%;   
     padding: 0.5em;
 }
 #buttonham {
     border: none;
+    color: white;
     background-color: #222a59; 
 }
 #buttonham :hover {
-    color: white;
+    color: rgb(229, 13, 157);
 }
 #buttonham :active {
     box-shadow: 0 0 35px #A63292;
