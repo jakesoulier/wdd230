@@ -58,7 +58,7 @@ footer a:active {
 
 #navbar {
     list-style: none;
-    
+    display: none;
     text-align: center;
     color: white;
     /* padding: none; */
