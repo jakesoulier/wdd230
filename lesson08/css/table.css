@@ -1,0 +1,55 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+    width: 350px;
+    box-shadow: 10px 5px 5px rgb(54, 1, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+tr, td, th {
+    border: 2px solid black;
+    padding: 0.5em;
+}
+
+tr:nth-child(odd) {
+    background-color: #E5E3E3;
+}
+
+tr:nth-child(even) {
+    background-color: #999898;
+}
+
+tr:nth-child(1) {
+    font-size: 40px;
+    background-color: #666565;
+}
+
+#friday {
+    font-style: italic;
+}
+
+tr:nth-child(2) {
+    color: white;
+    background-color: #705858;
+}
+
+tr:nth-child(9) {
+    font-size: 14px;
+    background-color: #614a5c;
+    color: white;
+}
+
+#novmoney {
+    color: white;
+    background-color: #E54D4D;
+}
