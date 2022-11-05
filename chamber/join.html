@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BYUI, WDD230, Chamber, Jake Soulier">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Chamber</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="imgs/iflogohueWebp.webp" alt="IFlogo" />
+      <h1>Idaho Falls Chamber of Commerce</h1>
+      <div class="social">
+        <a href="https://www.facebook.com/jake.soulier"
+          ><img src="imgs/facebook_logo1.jpg" alt="facebookLogo"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/jake-soulier-9330151a5?trk=people-guest_people_search-card"
+          ><img src="imgs/link_logo.png" alt="linkedin_logo"
+        /></a>
+      </div>
+      <button id="buttonham" onclick="openMenu()">
+        <span class="material-symbols-outlined"> more_down </span>
+      </button>
+      
+      <nav>
+        <ul id="navbar">
+          <li class="discover">
+            <a href="discover.html"></a>
+            <figure id="myFigure">
+              <img src="imgs/discoversm-05.png" alt="discoverimg" />
+            </figure>
+          </li>
+          <li class="directory">
+            <a ></a>
+            <figure>
+              <img src="imgs/directorsm-05.png" alt="directorimg" />
+            </figure>
+          </li>
+          <li class="joinnav">
+            <a ></a>
+            <figure><img src="imgs/joinsm-05.png" alt="directorimg" /></figure>
+          </li>
+          <li class="contact">
+            <a ></a>
+            <figure>
+              <img src="imgs/contactsm-05.png" alt="directorimg" />
+            </figure>
+          </li>
+        </ul>
+      </nav>
+      <!-- <div class="break"></div> -->
+      <p id="headerdate"></p>
+      <div id="monday"><span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span></div>
+    </header>
+
+    <section>
+        <div>
+            <form action="thankyou.html" method="GET"></form>
+            <label for="myinput">First Name<input type="text" name="fname" require></label>
+        </div>
+    </section>
+
+
+
+    <footer>
+      <nav class="footerlogo"><img src="imgs/iflogohueWebp.webp" alt="IFlogo" /></nav>
+      <nav class="headfooter">
+        
+        <p>Idaho Falls Chamber of Commerce</p>
+        <p>600 W Broadway St, Idaho Falls, ID 83402</p>
+        <!-- <p>Address</p> -->
+      </nav>
+      <nav class="middlefooter">
+        <p>info@idahofalls.org</p>
+        <p>+1(208)424-2177</p>
+        <a href="https://goo.gl/maps/6Ryjwj11xEe7JRqN9"
+          ><span class="material-symbols-outlined"> pin_drop </span></a
+        >
+        
+      </nav>
+      
+      <nav class="bottomfooter">
+        <hr />
+        <nav class="botbotfooter">
+        <p>&copy;<span id="year"></span> Idaho Falls Chamber</p>
+        <p class="dash"> | </p>
+        <p>Jake Soulier</p>
+        <p class="dash"> | </p>
+        <p>WDD 230 Project</p>
+        <p class="dash"> | </p>
+        <p id="dateTime"></p>
+      </nav>
+      </nav>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
