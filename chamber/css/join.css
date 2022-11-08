@@ -1,0 +1,21 @@
+section{
+    color: white;
+    /* background-color: aqua; */
+    /* text-align: center; */
+
+}
+
+/* section div {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* label{
+    padding: 1rem;
+} */
+
+
+label {
+    display: block;
+    padding-top: 1rem;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/join.css">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
@@ -70,10 +71,22 @@
     <section>
         <div>
             <form action="thankyou.html" method="GET"></form>
-            <label for="myinput">First Name<input type="text" name="fname" require></label>
+            <label>First Name<input type="text" name="fname" require></label>
+            <label>Last Name<input type="text" name="lname" require></label>
+            <label>Title<input type="text" name="title" pattern="[A-Za-z -]{7,}"require></label>
+            <label>Email<input type="email" name="email" require></label>
+            <label>Cell Phone<input type="tel" name="phone" require></label>
+            <label>Business Name<input type="text" name="busname" require></label>
+            <h3>Membership Level</h3>
+            <label><input type="radio" name="lvl" value="nonprofit">Non-profit</label>
+            <label><input type="radio" name="lvl" value="bronze">Bronze</label>
+            <label><input type="radio" name="lvl" value="silver">Silver</label>
+            <label><input type="radio" name="lvl" value="gold">Gold</label>
+            <label>Business Description<textarea name="description" cols="40" rows="5"></textarea></label>
+            <label><input type="hidden" name="datetime" value=""></label>
+            <input type="submit" value="Join the chamber!">
         </div>
     </section>
-
 
 
     <footer>
