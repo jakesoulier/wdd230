@@ -1,21 +1,35 @@
 section{
     color: white;
-    /* background-color: aqua; */
-    /* text-align: center; */
-
 }
 
-/* section div {
+div {
+    margin-left: 1rem;
+}
+
+label.userinput {
+    display: inline-block; 
+    width: 200px; 
+    text-align: left;
+    padding-top: 1rem;
+    
+}
+.btninputmain {
+    margin-bottom: 1rem;
+}
+#buz {
     display: flex;
     flex-direction: column;
-} */
+    text-align: left;
+    width: 30%;
+}
 
-/* label{
+#submitbtn {
+    margin-top: 2rem;
     padding: 1rem;
-} */
-
-
-label {
-    display: block;
-    padding-top: 1rem;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: 2rem;
+    font-size: 2rem;
+    border-style:double;
 }

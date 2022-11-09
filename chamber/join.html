@@ -70,21 +70,24 @@
 
     <section>
         <div>
-            <form action="thankyou.html" method="GET"></form>
-            <label>First Name<input type="text" name="fname" require></label>
-            <label>Last Name<input type="text" name="lname" require></label>
-            <label>Title<input type="text" name="title" pattern="[A-Za-z -]{7,}"require></label>
-            <label>Email<input type="email" name="email" require></label>
-            <label>Cell Phone<input type="tel" name="phone" require></label>
-            <label>Business Name<input type="text" name="busname" require></label>
+            <form action="thankyou.html" method="GET">
+            <label class="userinput">First Name*<input type="text" name="fname" require></label>
+            <label class="userinput">Last Name*<input type="text" name="lname" require></label>
+            <label class="userinput">Title*<input type="text" name="title" pattern="[A-Za-z -]{7,}"require></label>
+            <label class="userinput">Email*<input type="email" name="email" require></label>
+            <label class="userinput">Cell Phone*<input type="tel" name="phone" require></label>
+            <label class="userinput">Business Name*<input type="text" name="busname" require></label>
             <h3>Membership Level</h3>
-            <label><input type="radio" name="lvl" value="nonprofit">Non-profit</label>
-            <label><input type="radio" name="lvl" value="bronze">Bronze</label>
-            <label><input type="radio" name="lvl" value="silver">Silver</label>
-            <label><input type="radio" name="lvl" value="gold">Gold</label>
-            <label>Business Description<textarea name="description" cols="40" rows="5"></textarea></label>
+            <div class="btninputmain">
+            <label class="btninput"><input type="radio" name="lvl" value="nonprofit">Non-profit</label>
+            <label class="btninput"><input type="radio" name="lvl" value="bronze">Bronze</label>
+            <label class="btninput"><input type="radio" name="lvl" value="silver">Silver</label>
+            <label class="btninput"><input type="radio" name="lvl" value="gold">Gold</label>
+          </div>
+            <label id="buz">Business Description<textarea name="description" cols="40" rows="5"></textarea></label>
             <label><input type="hidden" name="datetime" value=""></label>
-            <input type="submit" value="Join the chamber!">
+            <input id="submitbtn" type="submit" value="Join the chamber!">
+          </form>
         </div>
     </section>
 
