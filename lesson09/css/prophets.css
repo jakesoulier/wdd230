@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+section {
+    padding: 1rem;
+    padding-bottom: .1rem;
+    background-color: rgb(116, 84, 84);
+    margin: 2px;
+}
+
+.cards {
+    background-color: antiquewhite;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+
+section img {
+    box-shadow: 0 0 10px 3px black;
+    max-width: 250px;
+    max-height: auto;
+}

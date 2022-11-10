@@ -1,0 +1,20 @@
+{
+    "businesses" : [
+        {
+            "imageURL" : "imgs/your-logo-here",
+            "street" : "2322 W Mill Street",
+            "citystatezip" : "Boise, UT 84309",
+            "phone" : "848-444-4444",
+            "websiteURL" : "https://heresthebuswerb.com",
+            "name" : "Idaho Web Sites"
+        },
+        {
+            "imageURL" : "imgs/your-logo-here",
+            "street" : "2322 W Mill Street",
+            "citystatezip" : "Boise, UT 84309",
+            "phone" : "848-444-4444",
+            "websiteURL" : "https://heresthebuswerb.com",
+            "name" : "Idaho Web Sites"
+        }
+    ]
+}
