@@ -9,7 +9,7 @@ function loadImage(img) {
 }
 
 const imgOptions = {
-    threshold: 0.5,
+    threshold: 1,
     rootMargin: "0px 0px 100px 0px"
 };
 
@@ -31,3 +31,17 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 images.forEach(image => {
     imgObserver.observe(image)
 });
+
+
+const visit = document.getElementById("visit");
+let visitText = "Welcome Newcomer!"
+let now = new Date();
+let lastVisit = window.localStorage.getItem('last-vist');
+if (lastVisit != null) {
+    let lastVisitTime = new Date(lastVisit);
+    let timeDifference = Math.floor((present.getTime() - lastVisitTime.getTime()) / (24 * 60 * 60 * 1000));
+    visitText = `You were last here ${timeDifference} days ago`
+};
+
+visit.textContent = visitText;
+window.localStorage.setItem("last-visit", present.toString());
