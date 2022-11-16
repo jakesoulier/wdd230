@@ -15,7 +15,7 @@ function displayCard(business) {
     let card = document.querySelector("#cardview");
     let div = document.createElement("div");
     console.log(business.imageURL)
-    div.innerHTML = `<img src="${business.imageURL}"/>
+    div.innerHTML = `<img src="${business.imageURL}" alt="${business.imagealt}"/>
     <p>${business.street} ${business.citystatezip}</p>
     <p>${business.phone}</p>
     <p><a href="${business.websiteURL}">${business.websiteURL}</a></p>`;
