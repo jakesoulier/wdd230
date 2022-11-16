@@ -8,8 +8,86 @@ main {
     text-align: center;
 }
 
-#cardview {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+a {
+    color: blue;
+}
+button {
+    background-color: black;
+}
+
+/* LISTVIEW STYLES */
+#listview table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: left;
+}
+#listview table:nth-child(odd){
+    background-color: #222a59;
+}
+#listview table tr:hover {
+    background-color: #ddd;
+    color: black;
+}
+#listview table td {
+    text-align: left;
+    color: white;
+} 
+
+#listview table tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: .3rem;
+}  
+
+#listview table {
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 1rem;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    #cardview {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    /* LISTVIEW STYLES */
+    #listview table tr {
+        display: block;
+    }
+
+    #listview table {
+        table-layout: fixed;
+        width: 1100px;
+      }
+    
+    #listview table tr th:first-child{
+        width: 10rem;
+        max-width: 10rem;
+    }
+    
+    #listview table tr th:nth-child(2) {
+        width: 12rem;
+        max-width: 12rem;
+    }
+    #listview table tr th:nth-child(3) {
+        width: 7rem;
+        max-width: 7rem;
+    }
+      
+      #listview table th {
+        padding: .5rem;
+      }
+
+    /* CARDVIEW STYLES */
+    #cardview {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
 }
