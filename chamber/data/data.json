@@ -1,20 +1,101 @@
 {
     "businesses" : [
-        {
-            "imageURL" : "imgs/your-logo-here",
-            "street" : "2322 W Mill Street",
-            "citystatezip" : "Boise, UT 84309",
-            "phone" : "848-444-4444",
-            "websiteURL" : "https://heresthebuswerb.com",
-            "name" : "Idaho Web Sites"
+        {   
+            "imageURL" : "imgs/melaleuca.webp",
+            "street" : "4609 W 65th S",
+            "citystatezip" : "Idaho Falls, ID 83402",
+            "phone" : "(208)522-0700",
+            "websiteURL" : "https://www.melaleucajobs.com/idaho-falls?location=Idaho%20Falls",
+            "name" : "Melaleuca"
         },
         {
-            "imageURL" : "imgs/your-logo-here",
-            "street" : "2322 W Mill Street",
-            "citystatezip" : "Boise, UT 84309",
-            "phone" : "848-444-4444",
-            "websiteURL" : "https://heresthebuswerb.com",
-            "name" : "Idaho Web Sites"
+            "imageURL" : "imgs/mountainview.jpg",
+            "street" : "2325 Coronado St",
+            "citystatezip" : "Idaho Falls, ID 83404",
+            "phone" : "(208)557-2700",
+            "websiteURL" : "https://www.mountainviewhospital.org/",
+            "name" : "Mountain View Hospital"
+        },
+        {
+            "imageURL" : "imgs/walmart.png",
+            "street" : "500 S Utah Ave",
+            "citystatezip" : "Idaho Falls, ID 83402",
+            "phone" : "(208)528-8735",
+            "websiteURL" : "https://www.walmart.com/store/5494-idaho-falls-id",
+            "name" : "Walmart"
+        },
+        {
+            "imageURL" : "imgs/albertsons.jpg",
+            "street" : "590 E 17th St",
+            "citystatezip" : "Idaho Falls, ID 83404",
+            "phone" : "(208)523-0950",
+            "websiteURL" : "https://local.albertsons.com/id/idaho-falls/590-e-17th-st.html  ",
+            "name" : "Albertsons"
+        },
+        {
+            "imageURL" : "imgs/fredmeyer.jpg",
+            "street" : "1555 Northgate Mile",
+            "citystatezip" : "Idaho Falls, ID 83401",
+            "phone" : "(208)535-2520",
+            "websiteURL" : "https://www.fredmeyer.com/stores/grocery/id/idaho-falls/idaho-falls/701/00156",
+            "name" : "Fred Meyer"
+        },
+        {
+            "imageURL" : "imgs/idahopower.png.crdownload",
+            "street" : "140 S Capital Ave",
+            "citystatezip" : "Idaho Falls, ID 83402",
+            "phone" : "(208)612-8430",
+            "websiteURL" : "https://www.ifpower.org/",
+            "name" : "Idaho Power"
+        },
+        {
+            "imageURL" : "imgs/fluoridaho.jpg",
+            "street" : "1580 Sawtelle St",
+            "citystatezip" : "Idaho Falls, ID 83402",
+            "phone" : "(208)533-0411",
+            "websiteURL" : "https://www.linkedin.com/company/fluor-idaho-llc/",
+            "name" : "Fluor Idaho"
+        },
+        {
+            "imageURL" : "imgs/homedepot.png",
+            "street" : "2075 S Holmes Ave",
+            "citystatezip" : "Idaho Falls, ID 83404",
+            "phone" : "(208)542-2520",
+            "websiteURL" : "https://www.homedepot.com/l/Idaho-Falls/ID/Idaho-Falls/83404/1802",
+            "name" : "Home Depot"
+        },
+        {
+            "imageURL" : "imgs/lumen.png",
+            "street" : "695 Yellowstone Ave",
+            "citystatezip" : "Idaho Falls, ID 83402",
+            "phone" : "(208)534-7135",
+            "websiteURL" : "https://www.centurylink.com/local/id/idaho-falls",
+            "name" : "Lumen"
+        },
+        {
+            "imageURL" : "imgs/inl.jpg",
+            "street" : "1955 N Fremont Ave",
+            "citystatezip" : "Idaho Falls, ID 83415",
+            "phone" : "(866)495-7440",
+            "websiteURL" : "https://inl.gov/",
+            "name" : "Idaho National Laboratory"
+        },
+        {
+            "imageURL" : "imgs/progrexion.jpg",
+            "street" : "1935 International Way",
+            "citystatezip" : "Idaho Falls, ID 83402",
+            "phone" : "(800)353-8954",
+            "websiteURL" : "https://www.progrexion.com/careers/locations/idaho-falls",
+            "name" : "Progrexion"
+        },
+        {
+            "imageURL" : "imgs/regal.png",
+            "street" : "2707 S 25th E",
+            "citystatezip" : "Idaho Falls, ID 83406",
+            "phone" : "(844)462-7342",
+            "websiteURL" : "https://www.regmovies.com/theatres/regal-edwards-grand-teton/1040?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing#/buy-tickets-by-cinema?in-cinema=1040&at=2022-11-15&view-mode=list",
+            "name" : "Regal"
         }
+
     ]
 }

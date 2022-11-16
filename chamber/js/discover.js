@@ -3,7 +3,7 @@ const images = document.querySelectorAll("[data-src]");
 function loadImage(img) {
     const src = img.getAttribute("data-src");
     if(!src) {
-        return
+        return;
     }
     img.src = src;
 }
@@ -36,12 +36,12 @@ images.forEach(image => {
 const visit = document.getElementById("visit");
 let visitText = "Welcome Newcomer!"
 let now = new Date();
-let lastVisit = window.localStorage.getItem('last-vist');
+let lastVisit = window.localStorage.getItem('last-visit');
 if (lastVisit != null) {
     let lastVisitTime = new Date(lastVisit);
-    let timeDifference = Math.floor((present.getTime() - lastVisitTime.getTime()) / (24 * 60 * 60 * 1000));
+    let timeDifference = Math.floor((now.getTime() - lastVisitTime.getTime()) / (24 * 60 * 60 * 1000));
     visitText = `You were last here ${timeDifference} days ago`
 };
 
 visit.textContent = visitText;
-window.localStorage.setItem("last-visit", present.toString());
+window.localStorage.setItem("last-visit", now.toString());

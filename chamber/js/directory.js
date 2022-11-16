@@ -14,8 +14,9 @@ fetch(requestURL)
 function displayCard(business) {
     let card = document.querySelector("#cardview");
     let div = document.createElement("div");
-    div.innerHTML = `img src="${business.imamgeURL}>
-    <p>${business.address} ${business.citystatezip}</p>
+    console.log(business.imageURL)
+    div.innerHTML = `<img src="${business.imageURL}"/>
+    <p>${business.street} ${business.citystatezip}</p>
     <p>${business.phone}</p>
     <p><a href="${business.websiteURL}">${business.websiteURL}</a></p>`;
     console.log(div)

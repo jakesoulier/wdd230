@@ -6,6 +6,65 @@ div {
     margin-left: 1rem;
 }
 
+
+section div {
+    display: block;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+label.userinput input {
+    display: block;
+    padding: .5rem;
+    width: 300px;
+    max-width: 300px;
+}
+
+label.btninput {
+    display: block;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(41, 42, 42);
+    max-width: 200px;
+    border-radius: 25px;
+}
+
+div.btninputmain {
+    margin: 0;
+}
+
+label#buz {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 300px;
+}
+
+#submitbtn {
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: 2rem;
+    font-size: 2rem;
+    border-style:double;
+}
+
+label :required {
+    border: 2px solid red;
+}
+
+/* label.btninput {
+    padding: .3rem;
+} */
+
+
+/*
+form
+*/
+/*
 label.userinput {
     display: inline-block; 
     width: 200px; 
@@ -33,3 +92,5 @@ label.userinput {
     font-size: 2rem;
     border-style:double;
 }
+
+*/

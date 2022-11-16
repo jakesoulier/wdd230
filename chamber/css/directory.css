@@ -1,0 +1,15 @@
+.material-symbols-outlined {
+    color: white;
+}
+
+main {
+    all: initial;   
+    color: white;
+    text-align: center;
+}
+
+#cardview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}

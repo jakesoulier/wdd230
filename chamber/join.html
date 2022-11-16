@@ -17,12 +17,12 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <title>Chamber</title>
+    <title>Join</title>
   </head>
 
   <body>
     <header>
-      <img src="imgs/iflogohueWebp.webp" alt="IFlogo" />
+      <a href="index.html"><img src="imgs/iflogohueWebp.webp" alt="IFlogo" /></a>
       <h1>Idaho Falls Chamber of Commerce</h1>
       <div class="social">
         <a href="https://www.facebook.com/jake.soulier"
@@ -40,26 +40,27 @@
       <nav>
         <ul id="navbar">
           <li class="discover">
-            <a href="discover.html"></a>
+            <a href="discover.html">
             <figure id="myFigure">
               <img src="imgs/discoversm-05.png" alt="discoverimg" />
-            </figure>
+            </figure></a>
           </li>
           <li class="directory">
-            <a ></a>
+            <a href="directory.html">
             <figure>
               <img src="imgs/directorsm-05.png" alt="directorimg" />
             </figure>
+          </a>
           </li>
           <li class="joinnav">
-            <a ></a>
-            <figure><img src="imgs/joinsm-05.png" alt="directorimg" /></figure>
+            <a href="join.html">
+            <figure><img src="imgs/joinsm-05.png" alt="directorimg" /></figure></a>
           </li>
           <li class="contact">
-            <a ></a>
+            <a href="contact.html">
             <figure>
               <img src="imgs/contactsm-05.png" alt="directorimg" />
-            </figure>
+            </figure></a>
           </li>
         </ul>
       </nav>
@@ -71,12 +72,12 @@
     <section>
         <div>
             <form action="thankyou.html" method="GET">
-            <label class="userinput">First Name*<input type="text" name="fname" require></label>
-            <label class="userinput">Last Name*<input type="text" name="lname" require></label>
-            <label class="userinput">Title*<input type="text" name="title" pattern="[A-Za-z -]{7,}"require></label>
-            <label class="userinput">Email*<input type="email" name="email" require></label>
-            <label class="userinput">Cell Phone*<input type="tel" name="phone" require></label>
-            <label class="userinput">Business Name*<input type="text" name="busname" require></label>
+            <label class="userinput">First Name*<input type="text" name="fname" required></label>
+            <label class="userinput">Last Name*<input type="text" name="lname" required></label>
+            <label class="userinput">Title*<input type="text" name="title" pattern="[A-Za-z -]{7,}"required></label>
+            <label class="userinput">Email*<input type="email" name="email" required></label>
+            <label class="userinput">Cell Phone*<input type="tel" name="phone" required></label>
+            <label class="userinput">Business Name*<input type="text" name="busname" required></label>
             <h3>Membership Level</h3>
             <div class="btninputmain">
             <label class="btninput"><input type="radio" name="lvl" value="nonprofit">Non-profit</label>
@@ -88,6 +89,27 @@
             <label><input type="hidden" name="datetime" value=""></label>
             <input id="submitbtn" type="submit" value="Join the chamber!">
           </form>
+        </div>
+        <div>
+          <h2>Membership Level Benefits</h2>
+          <h3>NP Membership</h3>
+          <ul>
+            <li>For non profit organizations and there is no fee</li>
+          </ul>
+          <h3>Bronze Membership</h3>
+          <ul>
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+          </ul>
+          <h3>Silver Membership</h3>
+          <ul>
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+          </ul>
+          <h3>Gold Membership</h3>
         </div>
     </section>
 
