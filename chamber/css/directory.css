@@ -9,8 +9,14 @@ main {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-a {
-    color: rgb(198, 198, 199);
+a  {
+    /* color: rgb(198, 198, 199); */
+    color: white;
+    
+}
+a:hover {
+    color: black;
+    /* background-color: aqua; */
 }
 
 /* a:hover {
@@ -33,10 +39,12 @@ button {
 #listview table:nth-child(odd){
     background-color: #222a59;
 }
-#listview table tr:hover {
+#listview table tr:hover a, #listview table tr:hover {
     background-color: #ddd;
     color: black;
+    
 }
+
 #listview table td {
     text-align: left;
     color: white;
