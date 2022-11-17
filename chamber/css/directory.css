@@ -6,16 +6,25 @@ main {
     all: initial;   
     color: white;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a {
-    color: blue;
+    color: rgb(198, 198, 199);
 }
+
+/* a:hover {
+    color: rgb(13, 13, 14);
+    background-color: aqua;
+} */
 button {
     background-color: black;
 }
 
 /* LISTVIEW STYLES */
+#listview {
+    display: none;
+}
 #listview table {
     border-collapse: collapse;
     margin: 0 auto;
