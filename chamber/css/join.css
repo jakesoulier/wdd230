@@ -6,7 +6,14 @@ div {
     margin-left: 1rem;
 }
 
+body section {
+    display: flex;
+}
 
+.benefits {
+    /* background-color: aqua; */
+    font-size: larger;
+}
 section div {
     display: block;
     margin-top: 20px;
