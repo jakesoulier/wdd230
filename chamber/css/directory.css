@@ -10,19 +10,10 @@ main {
 }
 
 a  {
-    /* color: rgb(198, 198, 199); */
     color: white;
     
 }
-a:hover {
-    color: black;
-    /* background-color: aqua; */
-}
 
-/* a:hover {
-    color: rgb(13, 13, 14);
-    background-color: aqua;
-} */
 button {
     background-color: black;
 }
