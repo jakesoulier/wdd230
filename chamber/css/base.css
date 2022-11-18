@@ -93,7 +93,7 @@ main div {
     text-align: center;
     padding: 0.5em;
     margin: 0 auto;
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 
 .join {
@@ -182,10 +182,13 @@ main div h2 {
     background-image: url('imgs/ifTemple.jpg');
     /* background-color: aqua;
 } */
-/* .event {
+/* div.event {
+
     margin: 0;
 } */
-
+.event {
+    margin: 0;
+}
 /* main p {
     margin: 0;
 } */
