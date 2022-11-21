@@ -87,7 +87,7 @@ main div {
     /* justify-content: end; */
     color: white;
     background-color: #0D0D0D;
-    width: 90%;
+    /* width: 90%; */
     min-height: 100px;
     box-shadow: 0 0 5px white;
     text-align: center;
@@ -161,6 +161,8 @@ header p {
     /* background-color: aqua; */
     background-image: url('../imgs/wdd230-small.jpg'); 
     background-size:cover;
+    /* margin: 8px; */
+    /* max-width: 100% ; */
 }
 
 main div h2 {
@@ -186,9 +188,11 @@ main div h2 {
 
     margin: 0;
 } */
-.event {
-    margin: 0;
+main div {
+    margin: 8px;
 }
+
+
 /* main p {
     margin: 0;
 } */

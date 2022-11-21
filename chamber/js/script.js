@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
   var month = today.toLocaleString('default', { month: 'long' });
   document.getElementById('year').textContent = today.getFullYear()
   document.getElementById('dateTime').textContent = 'Last updated: ' + document.lastModified
-  document.getElementById('headerdate').textContent = day + ', ' + today.getDay() + " " + month + " " + today.getFullYear()
+  document.getElementById('headerdate').textContent = day + ', ' + today.getDate() + " " + month + " " + today.getFullYear()
   let dayNum = today.getDay();
   // console.log(dayNum)
   let direction = document.querySelector('#monday');
