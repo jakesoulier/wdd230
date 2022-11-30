@@ -5,40 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
     <title>Home Page</title>
 </head>
 <body>
     <header>
-        <img src="imgs/temple.png" alt="Temple">
         <h1>Temple Inn</h1>
-        <button id="buttonham" onclick="openMenu()">
-            <span class="material-symbols-outlined"> arrow_drop_down </span>
-        </button>
-        <nav>
-            <ul id="navbar">
-              <li class="discover">
-                <a href="discover.html">
-                Discover
-              </li>
-              <li class="directory">
-                <a href="directory.html">
-                Directory
-              </a>
-              </li>
-              <li class="joinnav">
-                <a href="join.html">
-                Join</a>
-              </li>
-              <li class="contact">
-                <a href="contact.html">
-                Contact</a>
-              </li>
-            </ul>
-          </nav>
+          <nav id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">Temples</a>
+              <a href="#">Locations</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+        </nav>
+          <span class="material-symbols-outlined" onclick="openNav()">
+            menu
+            </span>
     </header>
     <main>
-        <p>some pics</p>
+        <!-- <section class="container"> -->
+            <div class="slider_wrapper">
+                <div class="slider">
+                    <img id="slide a" src="imgs/Brisbane_sm.jpg" alt="Brisbane Temple">
+                    <img id="slide b" src="imgs/melbourne_sm.jpeg" alt="Melbourne Temple">
+                    <img id="slide c" src="imgs/adelaide_sm.jpg" alt="Adelaide Temple">
+                </div>
+                <!-- <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a> 
+                    <a href="#slide-3"></a>
+                </div> -->
+            </div>
+        <!-- </section> -->
     </main>
     <footer>
         <section>

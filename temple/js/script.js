@@ -1,10 +1,7 @@
-function openMenu(){
-    console.log('yo');
-    var x = document.getElementById('navbar');
-    if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-}
-console.log('hey');
+function openNav() {
+    document.getElementById("myNav").style.width = "90%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
