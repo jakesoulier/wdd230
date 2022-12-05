@@ -148,6 +148,46 @@ body{
     50% { left: -80%; }
     100% { left: -16%; }
   } */
+
+.temple_content {
+  max-width: 450px;
+}
+#join {
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 15px var(--green);
+  width: 50%;
+  font-size: 18px;
+  color: var(--green)
+}
+#join:hover {
+  background-color: var(--green);
+  color: var(--light);
+  transition: 0.8s;
+  box-shadow: 0 0 15px var(--dark);
+}
+/* WEATHER */ 
+.adelaide, .brisbane {
+  background-color: var(--light);
+  /* margin: 20px; */
+  display: flex ;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1rem solid var(--dark);
+  border-top: 1rem solid var(--dark);
+  border-right: 2px solid var(--dark);
+  border-left: 2px solid var(--dark);
+  height: 50px;
+}
+.adelaide img, .brisbane img {
+  border-right: 2px solid var(--dark);
+  border-left: 2px solid var(--dark);
+  height: 75px;
+}
+
+
 /* FOOTER */
 footer {
     padding: 0.5rem;
