@@ -1,0 +1,26 @@
+@media screen and (min-width: 700px) {
+
+
+
+    
+    /* main */
+    /* slides */
+    .slides img {
+        width: 700px;
+        object-fit: contain;
+      }
+    .weatherlist {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .perth {
+        grid-column: -1/1;
+    }
+
+    /* footer */
+    .footercontent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

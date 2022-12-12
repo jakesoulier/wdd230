@@ -15,6 +15,14 @@ header {
     color: var(--med);
     background-color: white;
 }
+#tempHeader {
+  text-decoration: none;
+  color: var(--dark)
+}
+#tempHeader:hover {
+  opacity: 0.9;
+  /* text-shadow: 0 0 0.01px black; */
+}
 header h1 {
     margin: 0;
     padding-right: 10px;
@@ -22,6 +30,9 @@ header h1 {
     padding: 0.4rem;
 }
 /* NAVBAR */
+.bigNav{
+  display: none;
+}
 .material-symbols-outlined {
     padding: 3px;
 }
@@ -71,6 +82,7 @@ body{
     background-color: var(--light);
     color: var(--dark);
     font-family: 'Playfair Display', serif;
+    font-weight:bolder;
 }
 /* SlIDER PICS */
 .gallery-container {
@@ -150,7 +162,7 @@ body{
   } */
 
 .temple_content {
-  max-width: 450px;
+  padding: .2rem;
 }
 #join {
   border: none;
@@ -168,7 +180,7 @@ body{
   box-shadow: 0 0 15px var(--dark);
 }
 /* WEATHER */ 
-.adelaide, .brisbane {
+.adelaide, .brisbane, .sydney, .melbourne, .perth {
   background-color: var(--light);
   /* margin: 20px; */
   display: flex ;
@@ -181,7 +193,7 @@ body{
   border-left: 2px solid var(--dark);
   height: 50px;
 }
-.adelaide img, .brisbane img {
+.adelaide img, .brisbane img, .sydney img, .melbourne img, .perth img {
   border-right: 2px solid var(--dark);
   border-left: 2px solid var(--dark);
   height: 75px;
@@ -200,8 +212,17 @@ footer p {
 }
 footer section{
     padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 #footTitle {
     font-weight: bold;
     text-decoration: underline;
+}
+.location a{
+  color: var(--light);
+}
+.location a:hover{
+  color: var(--green);
 }

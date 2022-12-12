@@ -1,0 +1,46 @@
+@media screen and (min-width: 950px) {
+    /* header */
+    header h1 {
+        font-size: 50px;
+        text-decoration: underline;
+        padding: 1rem;
+    }
+    /* navbar */
+    #icon{
+        display:none;
+    }
+    div.bigNav {
+        display: flex;
+        /* flex-direction: column; */
+        padding: 1rem;
+        background-color: var(--tan);
+    }
+    .line {
+        border-left: 6px solid green;
+        height: 500px;
+    }
+    .bigNav a{
+        color: var(--med);
+        font-size: 50px;
+        text-decoration: none;
+        padding: 1rem;
+    }
+    .bigNav a:hover {
+        color: var(--light);
+    }
+    /* main */
+    .mainContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* weather */
+    /* .weatherlist {
+        display:flex;
+        flex-direction: column;
+    } */
+    /* footer */
+    .footercontent {
+        display: flex;
+        justify-content: space-around;
+    }
+}

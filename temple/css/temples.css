@@ -1,0 +1,18 @@
+:root {
+    --tan: #b59262;
+    --dark: #42474B;
+    --med: #808186;
+    --green: #577C11;
+    --light: #DBDBDB;
+}
+
+main img {
+    width: 400px;
+    height: auto;
+}
+
+main div {
+    background-color: var(--dark);
+    color: var(--light);
+    font-weight: lighter;
+}
