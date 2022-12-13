@@ -1,0 +1,55 @@
+{
+    "Temples" : [
+        {
+            "temple" : "Adelaide Temple",
+            "address" : "53-59 Lower Portrush Rd Marden SA 5070 Australia",
+            "phone" : "(61) 8-8363-8000", 
+            "image" : "imgs/adelaide-church.png", 
+            "announce" : "17 March 1999", 
+            "groundbreak" : "29 May 1999",
+            "prayer": "15 June 2000", 
+            "president" : "Jouni E. Soininen"
+        },
+        {
+            "temple" : "Brisbane Temple",
+            "address" : "200 River Terrace Kangaroo Point QLD 4169 Australia",
+            "phone" : "(61) 7-3240-3600", 
+            "image" : "imgs/brisbane-church.png", 
+            "announce" : "20 July 1998", 
+            "groundbreak" : "26 May 2001",
+            "prayer": "15 June 2003", 
+            "president" : "Grant A. Pitman"
+        },
+        {
+            "temple" : "Melbourne Temple",
+            "address" : "76 Cathies Ln Wantirna South VIC 3152 Australia",
+            "phone" : "(61) 3-9881-9700", 
+            "image" : "imgs/melbourne-church.png", 
+            "announce" : "30 October 1998", 
+            "groundbreak" : "20 March 1999",
+            "prayer": "20 March 1999", 
+            "president" : "Christopher Lawrence Donald"
+        },
+        {
+            "temple" : "Perth Temple",
+            "address" : "163-173 Wordsworth Avenue Yokine WA 6060 Australia",
+            "phone" : "(61) 8-9276-0000", 
+            "image" : "imgs/perth-church.png", 
+            "announce" : "11 June 1999", 
+            "groundbreak" : "20 November 1999",
+            "prayer": "20 May 2001", 
+            "president" : "Harvery James Scott"
+        },
+        {
+            "temple" : "Sydney Temple",
+            "address" : "756 Pennant Hills Road Corner Pennant Hills Rd & Moseley St. Carlingford NSW 2118, Australia",
+            "phone" : "(61) 8-9276-0000", 
+            "image" : "imgs/perth-church.png", 
+            "announce" : "11 June 1999", 
+            "groundbreak" : "20 November 1999",
+            "prayer": "20 May 2001", 
+            "president" : "Harvery James Scott"
+        }
+
+    ]
+}
