@@ -1,105 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/reservations.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>Temples</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="css/reservations.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <title>Temples</title>
 </head>
+
 <body>
   <header>
-    <a id="tempHeader" href="index.html"><h1>Temple Inn & Suites</h1></a>
-      <nav id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href="temples.html">Temples</a>
-          <a href="reservations.html">Reservations</a>
-          <a href="services.html">Services</a>
-        </div>
+    <a id="tempHeader" href="index.html">
+      <h1>Temple Inn & Suites</h1>
+    </a>
+    <nav id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="temples.html">Temples</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="services.html">Services</a>
+      </div>
     </nav>
     <div id="icon">
       <span class="material-symbols-outlined" onclick="openNav()">
         menu
-        </span>
-      </div>
-      <div class="bigNav">
-      
-          <a href="temples.html">Temples</a>
-          <!-- <p>here</p> -->
-          <!-- <div class="line"></div> -->
-          <a href="reservations.html">Reservations</a>
-          <a href="services.html">Services</a>
-          <!-- <p>more</p> -->
+      </span>
+    </div>
+    <div class="bigNav">
 
-      </div>
-</header>
-    <main>
-        <div>  <form action="thankyou.html" method="GET">
-            <label class="userinput">First Name*<input type="text" name="fname" required></label>
-            <label class="userinput">Last Name*<input type="text" name="lname" required></label>
-            <label class="userinput">Email*<input type="email" name="email" required></label>
-            <label class="userinput">Cell Phone<input type="tel" name="phone"></label>
-            <label class="userinput">Check In*<input type="date" name="date" required></label>
-            <label class="userinput">Check Out*<input type="date" name="date" required></label>
-            <h3>Room type</h3>
-            <div class="btninputmain">
-            <label class="btninput"><input onclick="changePic()" id="queen1" type="radio" name="lvl" value="queen">Single Queen</label>
-            <label class="btninput"><input onclick="changeDbQ()" type="radio" name="lvl" value="dbqueen">Double Queen</label>
-            <label class="btninput"><input onclick="changeKing()" type="radio" name="lvl" value="king">Single King</label>
+      <a href="temples.html">Temples</a>
+      <!-- <p>here</p> -->
+      <!-- <div class="line"></div> -->
+      <a href="reservations.html">Reservations</a>
+      <a href="services.html">Services</a>
+      <!-- <p>more</p> -->
+
+    </div>
+  </header>
+  <main>
+    <div>
+      <form action="thankyou.html" method="GET">
+        <div class="names">
+          <label class="userinput">First Name*<input type="text" name="fname" required></label>
+          <label class="userinput">Last Name*<input type="text" name="lname" required></label>
+          <label class="userinput">Email*<input type="email" name="email" required></label>
+          <label class="userinput">Cell Phone<input type="tel" name="phone"></label>
+          <label class="userinput">Check In*<input type="date" name="date" required></label>
+          <label class="userinput">Check Out*<input type="date" name="date" required></label>
+        </div>
+        <div class="roomtype">
+          <h3>Room type</h3>
+          <div class="btninputmain">
+            <label class="btninput"><input onclick="changePic()" id="queen1" type="radio" name="lvl"
+                value="queen">Single Queen</label>
+            <label class="btninput"><input onclick="changeDbQ()" type="radio" name="lvl" value="dbqueen">Double
+              Queen</label>
+            <label class="btninput"><input onclick="changeKing()" type="radio" name="lvl" value="king">Single
+              King</label>
             <label class="btninput"><input onclick="changeSuit()" type="radio" name="lvl" value="suite">Suite</label>
-            <div class="hotelimg">
-                <img id="room" src="imgs/font-desk.jpg" alt="front-desk">
-              </div>
           </div>
-            <label><input id="currentdate" type="hidden" name="datetime" value=""></label>
-            <input id="submitbtn" type="submit" value="Submit">
-          </form></div>
-          
-    </main>
-    <footer>
-      <div class="footercontent">
-    <section class="location">
-      
+        </div>
+          <div class="hotelimg">
+            <img id="room" src="imgs/font-desk.jpg" alt="front-desk">
+          </div>
         
-        <a href="https://www.google.com/maps/place/4800+Montgomery+Ln,+Bethesda,+MD+20814/@38.9832518,-77.0955318,17z/data=!4m6!3m5!1s0x89b7c97b6b3b5b43:0xceab47cd19a23a3b!8m2!3d38.9832518!4d-77.0955318!16s%2Fg%2F11c5pd4q30?authuser=0&hl=en">
-        <span class="material-symbols-outlined">
-          location_on
+          <label><input id="currentdate" type="hidden" name="datetime" value=""></label>
+        
+        <div class="inputDiv">
+
+          <input id="submitbtn" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+
+  </main>
+  <footer>
+    <div class="footercontent">
+      <section class="location">
+
+
+        <a
+          href="https://www.google.com/maps/place/4800+Montgomery+Ln,+Bethesda,+MD+20814/@38.9832518,-77.0955318,17z/data=!4m6!3m5!1s0x89b7c97b6b3b5b43:0xceab47cd19a23a3b!8m2!3d38.9832518!4d-77.0955318!16s%2Fg%2F11c5pd4q30?authuser=0&hl=en">
+          <span class="material-symbols-outlined">
+            location_on
           </span></a>
-          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
-    </section>
-    <section>
-      
-      <span class="material-symbols-outlined">
-        call
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+      </section>
+      <section>
+
+        <span class="material-symbols-outlined">
+          call
         </span>
         <p>208-123-4567</p>
-    </section>
-    <section>
-      
-      <span class="material-symbols-outlined">
-        mail
+      </section>
+      <section>
+
+        <span class="material-symbols-outlined">
+          mail
         </span>
         <p>australiantemples@church.com</p>
 
-    </section>
-    <section>
+      </section>
+      <section>
 
         <img src="imgs/fb_logo.png" alt="FB_logo">
         <img src="imgs/twitter.png" alt="Twitter_logo">
-    </section>
-  </div>
+      </section>
+    </div>
     <div>
       <hr>
-        <p>&copy;2022 | Jake Soulier | WDD230</p>
+      <p>&copy;2022 | Jake Soulier | WDD230</p>
     </div>
-    </footer>
-    
-    <script src="js/script.js"></script>
-    <script src="js/reservations.js"></script>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/reservations.js"></script>
 </body>
+
 </html>

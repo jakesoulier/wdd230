@@ -14,7 +14,7 @@ function displayMe(temple) {
     let card = document.querySelector(".templeList");
     let div = document.createElement('div');
     div.innerHTML = `<p>${temple.temple}</p>
-    <img src="${temple.image}" alt="">
+    <img src="${temple.image}" alt="${temple.temple}">
     <p>${temple.address}</p>
     <p>${temple.phone}</p>
     <p>Announced: ${temple.announce}</p>
