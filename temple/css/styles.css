@@ -29,6 +29,14 @@ header h1 {
     font-size: 20px;
     padding: 0.4rem;
 }
+a#tempHeader {
+  display: flex;
+  align-items: center;
+}
+/* header img {
+  max-width: 50px;
+  height: auto;
+} */
 /* NAVBAR */
 .bigNav{
   display: none;

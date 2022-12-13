@@ -5,6 +5,11 @@
         text-decoration: underline;
         padding: 1rem;
     }
+    /* header img {
+        align-items: center;
+        justify-content: center;
+        
+      } */
     /* navbar */
     #icon{
         display:none;
