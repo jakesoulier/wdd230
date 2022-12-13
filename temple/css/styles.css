@@ -82,6 +82,10 @@ a#tempHeader {
     right: 45px;
     font-size: 60px;
   }
+  header img {
+    width: 70px;
+
+}
 
 /* BODY */
 body{
