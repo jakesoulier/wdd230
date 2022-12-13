@@ -226,3 +226,10 @@ footer section{
 .location a:hover{
   color: var(--green);
 }
+.contactFoot a {
+  color: var(--light);
+  text-decoration: none;
+}
+.contactFoot a:hover {
+  text-decoration: underline;
+}

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <title>Home Page</title>
@@ -39,83 +40,12 @@
           </div>
     </header>
     <main>
-   
-        <div class="gallery-container">
-            <div class="thumbnails"></div>
-            <div class="slides">
-              <div><picture>
-                <!-- <source srcset="imgs/wdd230-large.jpg" media="(min-width: 950px)"> -->
-                <source srcset="imgs/adelaide-med.png" media="(min-width: 700px)">
-                <img src="imgs/brisbane-at-night_sm.jpg">
-              </picture>
-              </div>
-              <div>
-                <picture>
-                  <source srcset="imgs/brisbane-med.png" media="(min-width: 700px)">
-                  <img src="imgs/melbourne_sm.jpeg">
-                </picture>
-              </div>
-              <div>
-                <picture>
-                  <source srcset="imgs/melbourne-med.jpeg" media="(min-width: 700px)">
-                  <img src="imgs/adelaide-sm.jpg">
-                </picture>
-              </div>
-              <div>
-                <picture>
-                  <source srcset="imgs/perth_med.jpg" media="(min-width: 700px)">
-                  <img src="imgs/perth_sm.jpg" alt="perth"></div>
-                </picture>
-              <div>
-                <picture>
-                  <source srcset="imgs/sydney-med.jpg" media="(min-width: 700px)">
-                  <img src="imgs/sydney_sm.jpg" alt="sydney">
-                </picture>
-              </div>
-            </div>
-          </div>
-
-
-
-        <div class="mainContent">
-          <div>
-        <div class="temple_content">
-          <h1>Temple Inn and Suites</h1>
-          <p>Serving in the Lords home should not be complicated. We are here to help you. For all the open temples in our beautiful country down under in Australian, we are here to provide easy access to nearby warm beds to any temple here.</p>
-          <a href="reservations.html"><button id="join">Book Now</button></a>
-        </div>
-      </div>
-      <div>
-        <h2>Weather</h2>
-        <div class="weatherlist">
-        <div class="adelaide">
-          <h2>Adelaide</h2>
-          <img src="" alt="weather icon" id="adelaideIcon">
-          <p>Temperature: <span id="adelaide-temp"></span> °F</p>
-        </div>
-        <div class="brisbane">
-          <h2>Brisbane</h2>
-          <img src="" alt="brisbane icon" id="brisbaneIcon">
-          <p>Temperature: <span id="brisbane-temp"></span> °F</p>
-        </div>
-        <div class="sydney">
-          <h2>Sydney</h2>
-          <img src="" alt="sydney icon" id="syd-Icon">
-          <p>Temperature: <span id="syd-temp"></span> °F</p>
-        </div>
-        <div class="melbourne">
-          <h2>Melbourne</h2>
-          <img src="" alt="melbourne icon" id="mel-Icon">
-          <p>Temperature: <span id="mel-temp"></span> °F</p>
-        </div>
-        <div class="perth">
-          <h2>Perth</h2>
-          <img src="" alt="perth icon" id="per-Icon">
-          <p>Temperature: <span id="per-temp"></span> °F</p>
-        </div>
-      </div>
-    </div>
-    </div>
+        <h1>Reach out!</h1>
+        <form action="thankyou.html" method="GET">
+            <p>Write an email</p>
+            <label id="getinput"><textarea name="description" cols="80" rows="10"></textarea></label>
+            <input id="btnSend" type="submit" value="Send Email">
+          </form>
     </main>
     <footer>
       <div class="footercontent">
