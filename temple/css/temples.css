@@ -15,4 +15,20 @@ main div {
     background-color: var(--dark);
     color: var(--light);
     font-weight: lighter;
+    border: solid var(--tan);
+}
+@media screen and (min-width: 700px) {
+    .templeList{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 950px) {
+    .templeList{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main div:nth-child(4), main div:nth-child(5) {
+        grid-column: -1/1;
+    }
 }

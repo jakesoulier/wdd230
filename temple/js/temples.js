@@ -11,7 +11,14 @@ fetch(requestURL)
     // buzlist.forEach(displayList);
   });
 function displayMe(temple) {
-    let card = document.querySelector("#templeList");
+    let card = document.querySelector(".templeList");
     let div = document.createElement('div');
-    div.innerHTML = `<p>"${card.temple}</p>"`
+    div.innerHTML = `<p>${temple.temple}</p>
+    <img src="${temple.image}" alt="">
+    <p>${temple.address}</p>
+    <p>${temple.phone}</p>
+    <p>Announced: ${temple.announce}</p>
+    <p>Groundbreaking: ${temple.groundbreak}</p>
+    <p>Temple President: ${temple.president}</p>`;
+    card.appendChild(div);
 };
